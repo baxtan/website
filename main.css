@@ -1,5 +1,5 @@
 html {
-    background: #f1f1f1;
+    background: Black;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -13,28 +13,24 @@ body {
     padding: 2em 2em 4em;
 }
 
-h1, h2 {
-    color: #222;
+h2 {
+    color: white;
     font-weight: 600;
     line-height: 1.3;
 }
 
-h1 {
-text-align: center;
 
-}
-
-
-h2 {font-weight: 100;
+h2 {font-weight: 400;
     margin-top: 1.3em;
 }
 
 a {
-    color: gray;
-   /* text-decoration: none; */
+    color: white;
+   text-decoration: none;
+    font-style: oblique;
 }
 a:hover { 
-    color: yellow;
+    color: deepskyblue;
 }
 
 b, strong {
@@ -66,13 +62,16 @@ img {
 }
 
 section{
+    color: lightgray;
     float:left;
-    width:60%; 
+    width:70%; 
 }
 
 aside{
+    color: lightgray;
     float:left;
-    width:30%;
+    font-size: 13px;
+    width:20%;
     margin-right:9%;
     
 }
